@@ -1,0 +1,63 @@
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width: 640px;
+  flex-direction: column;
+  margin-top: 13px;
+}
+
+.Footer__top {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 16px;
+  color: #70757a;
+  color: rgba(0, 0, 0, 0.66);
+  margin-top: 8px;
+}
+
+.Footer__middle {
+  font: 400 12px Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  margin: 16px 0;
+  padding: 0 16px;
+  text-align: center;
+  color: #70757a;
+  color: rgba(0, 0, 0, 0.66);
+}
+
+a {
+  all: unset;
+  text-decoration-line: underline;
+}
+
+.Footer__bottom {
+  text-align: center;
+  font-family: "Product Sans", Arial, Helvetica, sans-serif;
+  font-size: 22.1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+  text-rendering: optimizeLegibility;
+  color: #70757a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.googleIcon {
+  filter: brightness(1) invert(0.4);
+  fill: #70757a;
+  color: #70757a;
+}
+
+.forms {
+  position: relative;
+  top: -5px;
+}
+
+@media only screen and (max-width: 700px) {
+  .Footer {
+    width: 95%;
+  }
+}

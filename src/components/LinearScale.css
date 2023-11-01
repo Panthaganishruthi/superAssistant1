@@ -1,0 +1,28 @@
+.LinearScale {
+  border: 1px solid #dadce0;
+  height: auto;
+  width: 640px;
+  background-color: white;
+  border-radius: 9px;
+  padding: 25px;
+  margin-bottom: 12px;
+  padding-bottom: 32px;
+}
+
+.LinearScale__content {
+  display: flex;
+  align-items: end;
+  justify-content: space-evenly;
+  font-size: 14px;
+}
+
+.worst,
+.best {
+  padding: 7px;
+}
+
+@media only screen and (max-width: 700px) {
+  .LinearScale {
+    width: 95%;
+  }
+}

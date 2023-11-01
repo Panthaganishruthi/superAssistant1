@@ -1,0 +1,20 @@
+.ShortAnswer {
+  border: 1px solid #dadce0;
+  height: auto;
+  width: 640px;
+  background-color: white;
+  border-radius: 9px;
+  padding: 25px;
+  margin-bottom: 12px;
+  padding-bottom: 32px;
+}
+
+.textfield {
+  width: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+  .ShortAnswer {
+    width: 95%;
+  }
+}

@@ -1,0 +1,35 @@
+.Submit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  width: 640px;
+}
+
+.Submit__middle {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.Submit__middle__left {
+  width: 180px;
+  height: 10px;
+  border-radius: 10px;
+  background: #34a853;
+  margin-right: 13px;
+}
+
+.Submit__right {
+  font-size: 14px;
+  color: #673ab7;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  line-height: 36px;
+}
+
+@media only screen and (max-width: 700px) {
+  .Submit {
+    width: 95%;
+  }
+}

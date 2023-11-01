@@ -1,0 +1,42 @@
+.TickBox {
+  border: 1px solid #dadce0;
+  height: auto;
+  width: 640px;
+  background-color: white;
+  border-radius: 9px;
+  padding: 25px;
+  margin-bottom: 12px;
+  padding-bottom: 32px;
+}
+
+.TickBox__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.TickBox__row {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.TickBox__row__group {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  padding-right: 30px;
+}
+
+.tickbox__text {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 700px) {
+  .TickBox {
+    width: 95%;
+  }
+}
